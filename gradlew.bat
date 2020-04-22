@@ -105,6 +105,8 @@ set GRADLE_OPTS=-XX:MaxMetaspaceSize=1024m -Xmx1024m -XX:MaxHeapSize=256m %GRADL
 set GRADLE_OPTS=-XX:MaxMetaspaceSize=1024m -Xmx1024m -XX:MaxHeapSize=256m %GRADLE_OPTS%
 set GRADLE_OPTS=-XX:MaxMetaspaceSize=1024m -Xmx1024m -XX:MaxHeapSize=256m %GRADLE_OPTS%
 set GRADLE_OPTS=-XX:MaxMetaspaceSize=1024m -Xmx1024m -XX:MaxHeapSize=256m %GRADLE_OPTS%
+set GRADLE_OPTS=-XX:MaxMetaspaceSize=1024m -Xmx1024m -XX:MaxHeapSize=256m %GRADLE_OPTS%
+set GRADLE_OPTS=-XX:MaxMetaspaceSize=1024m -Xmx1024m -XX:MaxHeapSize=256m %GRADLE_OPTS%
 set DEFAULT_JVM_OPTS=
 
 @rem Find java.exe

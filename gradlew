@@ -119,6 +119,8 @@ GRADLE_OPTS="-XX:MaxMetaspaceSize=1024m -Xmx1024m $GRADLE_OPTS"
 GRADLE_OPTS="-XX:MaxMetaspaceSize=1024m -Xmx1024m $GRADLE_OPTS"
 GRADLE_OPTS="-XX:MaxMetaspaceSize=1024m -Xmx1024m $GRADLE_OPTS"
 GRADLE_OPTS="-XX:MaxMetaspaceSize=1024m -Xmx1024m $GRADLE_OPTS"
+GRADLE_OPTS="-XX:MaxMetaspaceSize=1024m -Xmx1024m $GRADLE_OPTS"
+GRADLE_OPTS="-XX:MaxMetaspaceSize=1024m -Xmx1024m $GRADLE_OPTS"
 DEFAULT_JVM_OPTS=""
 
 # Use the maximum available, or set MAX_FD != -1 to use that value.

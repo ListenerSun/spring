@@ -6,10 +6,10 @@
 
      <!-- services -->
 
-     <bean id="home" class="com.sqt.spring.factory.Home">
+     <bean id="home" class="com.sqt.spring.ioc.Home">
 
      </bean>
-     <bean id="myApplicationAware" class="com.sqt.spring.factory.MyApplicationAware">
+     <bean id="myApplicationAware" class="com.sqt.spring.ioc.MyApplicationAware">
 
      </bean>
 

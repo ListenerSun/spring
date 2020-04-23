@@ -1,4 +1,4 @@
-package com.sqt.spring.factory;
+package com.sqt.spring.ioc;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.BeanClassLoaderAware;

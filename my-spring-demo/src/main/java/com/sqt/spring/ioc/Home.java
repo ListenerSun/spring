@@ -1,4 +1,4 @@
-package com.sqt.spring.factory;
+package com.sqt.spring.ioc;
 
 /**
  * @Description:

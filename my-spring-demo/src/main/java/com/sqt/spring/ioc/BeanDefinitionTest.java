@@ -1,4 +1,4 @@
-package com.sqt.spring.factory;
+package com.sqt.spring.ioc;
 
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
@@ -15,12 +15,15 @@ import org.springframework.core.io.Resource;
 public class BeanDefinitionTest {
 
 	public static void main(String[] args) {
-		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath*:META-INF/spring-test" +
-				".xml");
-		Resource contextResource = applicationContext.getResource("classpath*:META-INF/spring-test.xml");
+		String location = "classpath*:META-INF/spring-ioc.xml";
+		ApplicationContext applicationContext = new ClassPathXmlApplicationContext(location);
+		Resource contextResource = applicationContext.getResource(location);
 		Home home = applicationContext.getBean("home",Home.class);
 		System.out.println(home);
-		ClassPathResource resource = new ClassPathResource("/META-INF/spring-test.xml");
+
+
+
+		ClassPathResource resource = new ClassPathResource(location);
 		DefaultListableBeanFactory factory = new DefaultListableBeanFactory();
 		XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(factory);
 		reader.loadBeanDefinitions(resource);

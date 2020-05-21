@@ -122,8 +122,6 @@ public abstract class AbstractRefreshableApplicationContext extends AbstractAppl
 	/**
 	 * todo 该方法是被final修饰 不允许被子类修改
 	 * todo  该方法是实例化容器的 重要方法
-	 * <p>
-	 * <p>
 	 * This implementation performs an actual refresh of this context's underlying
 	 * bean factory, shutting down the previous bean factory (if any) and
 	 * initializing a fresh bean factory for the next phase of the context's lifecycle.

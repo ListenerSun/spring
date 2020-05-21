@@ -17,18 +17,7 @@ public class BeanDefinitionTest {
 	public static void main(String[] args) {
 		String location = "classpath*:META-INF/spring-ioc.xml";
 		ApplicationContext applicationContext = new ClassPathXmlApplicationContext(location);
-		Resource contextResource = applicationContext.getResource(location);
 		Home home = applicationContext.getBean("home",Home.class);
-		System.out.println(home);
-
-
-
-		ClassPathResource resource = new ClassPathResource(location);
-		DefaultListableBeanFactory factory = new DefaultListableBeanFactory();
-		XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(factory);
-		reader.loadBeanDefinitions(resource);
-
-		MyApplicationAware applicationAware = (MyApplicationAware) factory.getBean("myApplicationAware");
-		applicationAware.display();
+		System.out.println(home.getMyApplicationAware());
 	}
 }
